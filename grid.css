@@ -1,0 +1,34 @@
+/* parent Flex Container*/
+.container{
+    display:grid;
+    
+    grid-template-rows: 2fr 2fr auto ;
+   grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    border: 2px solid rgb(209, 10, 10);
+    background-color: lightcoral;
+    margin: 20px;
+    border-radius: 20px;
+    
+    
+}
+/* Child Boxes*/
+.day{
+    background-color: rgb(151, 239, 182);
+    color: rgb(138, 121, 20);
+    font-size: 50px;
+    font-weight: bold;
+    border-radius: 40px;
+    margin: 30px;
+    padding: 20px;
+    text-align: center;
+    
+}
+.a{
+    text-align: center;
+font-family:cursive;
+font-style: italic;
+font-weight: 500;
+color: rgb(243, 138, 33);
+
+}

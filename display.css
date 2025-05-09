@@ -1,0 +1,75 @@
+.block-example{
+    display: block;
+    width: 200px;
+    background-color: brown;
+    color: wheat;
+    margin-bottom: 10px;
+    border: 2px dashed black ;
+}
+
+.inline-example{
+    display: inline;
+    background-color: violet;
+    border: 2px double black;
+    color: white;
+    padding: 10px;
+}
+.click{
+    display: inline-block;
+    width: 120px;
+    height: 50px;
+    background-color: gold;
+    border-radius: 30px;
+}
+.sub{
+    display: inline-block;
+    width:100px ;
+    height: 50px;
+    background-color: gold;
+    border-radius: 30px;
+}
+.cont{
+    display: flex;
+    gap:50px;
+    background-color: rgb(14, 179, 194);
+    padding: 15px;
+}
+#a{
+    background-color: lightgoldenrodyellow;
+    color: black;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+    
+}
+#b{
+    background-color: lightgreen;
+    color: black;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+
+}
+#c{
+    background-color: lightcoral;
+    color: black;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+
+}
+#d{
+    background-color: lightpink;
+    color: black;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+#e{
+    background-color: lightslategray;
+    color: black;
+    padding: 20px;
+    border: 1px soild black;
+    border-radius: 20px;
+}
+

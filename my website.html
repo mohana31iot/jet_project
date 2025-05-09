@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Body Fuel</title>
+    <link rel="icon" href="image/Banners.jpg" type="jpg">
+    <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="My website.css">
+</head>
+<body class="bg-secondary">
+    <header class="header d-flex align-items-center justify-content-between">
+        <div  class="H"class="Logo" >Body Fuel</div>
+        <div class="d-flex align-items-center gap-2">
+        <input type="text" placeholder="Search for Products" class="Search-input" />
+
+        <button class="btn btn-light text-primary">Search</button>
+        </div>
+        <div class="d-flex align-items-center gap-2">
+        <button class="btn btn-outline-light">Cart</button>
+        <button class="btn btn-outline-light">Login</button></div>
+    </header>
+    <!--Navigation Bar -->
+    <nav>
+        <ul class="list-inline">
+            <li class="list-inline-item"><a href="#" class="text-warning text-decoration-none">Welcome Drink</a></li>
+            <li class="list-inline-item"><a href="#" class="text-warning text-decoration-none ">Beverages</a></li>
+            <li class="list-inline-item"><a href="#" class="text-warning text-decoration-none">Starters</a></li>
+            <li class="list-inline-item"><a href="#" class="text-warning text-decoration-none">North Indian Cuisine</a></li>
+            <li class="list-inline-item"><a href="#" class="text-warning text-decoration-none">South Indian Cuisine</a></li>
+            <li class="list-inline-item"><a href="#" class="text-warning text-decoration-none">Chinese Cuisine</a></li>
+            <li class="list-inline-item"><a href="#" class="text-warning text-decoration-none">Middle East Cuisine</a></li>
+            <li class="list-inline-item"><a href="#" class="text-warning text-decoration-none">French Cuisine</a></li>
+            <li class="list-inline-item"><a href="#" class="text-warning text-decoration-none">Japanese Cuisine</a></li>
+            <li class="list-inline-item"><a href="#" class="text-warning text-decoration-none">Desserts</a></li>
+        </ul>
+    </nav>
+    <section class="img-fluid">
+        <marquee>
+            <div class="banner list-inline-item"><img src="/image/welcome drink2.jpg" width="200" height="200" alt="Banner 3"></div>
+            <div class="banner list-inline-item"><img src="/image/NI.jpg" width="200" height="200" alt="Banner 4"></div>
+            <div class="banner list-inline-item"><img src="/image/SI.jpg" width="200" height="200" alt="Banner 5"></div>
+            <div class="banner list-inline-item"><img src="/image/Chinese cuisine.jpg" width="200" height="200" alt="Banner 6"></div>
+            <div class="banner list-inline-item"><img src="/image/ME cuisine.jpg" width="200" height="200" alt="Banner 7"></div>
+            <div class="banner list-inline-item"><img src="/image/french1.jpg" width="200" height="200" alt="Banner 8"></div>
+            <div class="banner list-inline-item"><img src="/image/dessert 2.jpg" width="200" height="200" alt="Banner 9"></div>
+            <button class="prev" onclick="changeBanner(-1)" >&#10094;</button>
+        <button class="next" onclick="changeBanner(1)">&#10095;</button></div></marquee>
+    </section>
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-3 col-sm-6 d-flex align-items-stretch mt-5">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <img class="img-fluid rounded" style="height: 200px;object-fit:cover;" src="/image/welcome drinks.jpg" alt="Welcome Drink">
+                                <h5 class="card-title">WELCOME DRINKS</h5>
+                                <p class="card-text text-muted">Hospitality</p>
+                                <p><strong>Price:</strong> Rs.399</p>
+                                <p><strong>Category:</strong>Soft Drink</p>
+                                <p><strong>Rating:</strong> *4.8/5</p>
+                                <a href="#" class="btn btn-primary"> Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3 col-sm-6 d-flex align-items-stretch mt-5">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <img class="img-fluid rounded" style="height: 200px;object-fit:cover;"src="image/starters.jpg" alt="Starters">
+                                <h5 class="card-title">PANNER TIKKA</h5>
+                                <p class="card-text text-muted">Flavorsome succulent and tender</p>
+                                <p><strong>Price:</strong> <Rs.450></Rs></p>
+                                    <p><strong>Category:</strong> Starters</p>
+                                    <p><strong>Rating:</strong> *4.7/5</p>
+                                    <a href="#" class="btn btn-primary">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3 col-sm-6 d-flex align-items-stretch mt-5">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <img class="img-fluid rounded" style="height: 200px;object-fit:cover;"src="/image/NI.jpg" alt="North Indian">
+                                <h5 class="card-title">North Indian Thali</h5>
+                                <p class="card-text text-muted">Craving for Authentic North Indian Food</p>
+                                <p><strong>price:</strong>Rs.800</p>
+                                <p><strong>Category:</strong>North Indian Cuisine</p>
+                                <p><strong>Rating:</strong>*4.6</p>
+                                <a href="#" class="btn btn-primary">Add to cart</a>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3 col-sm-6 d-flex align-items-stretch mt-5">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <img class="img-fluid rounded" style="height: 200px;object-fit:cover;"src="/image/SI.jpg" alt="South Indian">
+                                <h5 class="card-title">South Indian Thali</h5>
+                                <p class="card-text text-muted">Craving for Tradtional South Indian Food</p>
+                                <p><strong>price:</strong>Rs.600</p>
+                                <p><strong>Category:</strong>North Indian Cuisine</p>
+                                <p><strong>Rating:</strong>*4.7</p>
+                                <a href="#" class="btn btn-primary">Add to cart</a>
+                            </div>
+                        </div>
+                </div>
+                <div class="col-12 col-md-3 col-sm-6 d-flex d-flex align-items-stretch mt-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <img class="img-fluid rounded" style="height: 200px;object-fit:cover;"src="/image/Chinese cuisine.jpg" alt="Chinese">
+                            <h5 class="card-title">Chinese Cuisine</h5>
+                            <p class="card-text text-muted">To Evoke your tastebuds</p>
+                            <p><strong>price:</strong>Rs.1000</p>
+                            <p><strong>Category:</strong>Chinese Cuisine</p>
+                            <p><strong>Rating:</strong>*4.5</p>
+                            <a href="#" class="btn btn-primary">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 col-sm-6 d-flex d-flex align-items-stretch mt-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <img class="img-fluid rounded" style="height: 200px;object-fit:cover;"src="/image/ME cuisine.jpg" alt="Middle East">
+                            <h5 class="card-title">Middle East Cuisine</h5>
+                            <p class="card-text text-muted">Let your taste buds embrk on an Arabian culinary adventure</p>
+                            <p><strong>price:</strong><Rs class="1999"></Rs></p>
+                            <p><strong>Category:</strong>Middle East Cuisine</p>
+                            <p><strong>Rating:</strong>*4.8</p>
+                            <a href="#" class="btn btn-primary">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 col-sm-6 d-flex d-flex align-items-stretch mt-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <img class="img-fluid rounded" style="height: 200px;object-fit:cover;"src="image/french1.jpg" alt="French Cuisine">
+                            <h5 class="card-title">French Cuisine</h5>
+                            <p class="card-text text-muted">The beauty of French cuisine lies in its simplicity and elegance</p>
+                            <p><strong>price:</strong><Rs class="999"></Rs></p>
+                            <p><strong>Category:</strong>French Cuisine</p>
+                            <p><strong>Rating:</strong>*4.9</p>
+                            <a href="#" class="btn btn-primary">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 col-sm-6 d-flex d-flex align-items-stretch mt-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <img class="img-fluid rounded" style="height: 200px;object-fit:cover;"src="image/Japanese.jpg" alt="Japanese Cuisine">
+                            <h5 class="card-title">Japanese Cuisine</h5>
+                            <p class="card-text text-muted">Let food be thy medicine and medicine be thy food</p>
+                            <p><strong>price:</strong><Rs class="1499"></Rs></p>
+                            <p><strong>Category:</strong>Japanese Cuisine</p>
+                            <p><strong>Rating:</strong>*4.2</p>
+                            <a href="#" class="btn btn-primary">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 col-sm-6 d-flex d-flex align-items-stretch mt-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <img class="img-fluid rounded" style="height: 200px;object-fit:cover;"src="/image/Desserts.jpg" alt="Desserts">
+                            <h5 class="card-title">Desserts</h5>
+                            <p class="card-text text-muted">Taking sweet moment to another level</p>
+                            <p><strong>price:</strong><Rs class="499"></Rs></p>
+                            <p><strong>Category:</strong>Desserts</p>
+                            <p><strong>Rating:</strong>*4.9</p>
+                            <a href="#" class="btn btn-primary">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+   
+</body>
+</html>

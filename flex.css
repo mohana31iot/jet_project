@@ -1,0 +1,19 @@
+.a{
+    border: 5px double rgb(24, 192, 210);
+    border-radius:20px ;
+    background-color: lightcoral;
+}
+.form{
+
+   border: 1px solid black;
+   display: inline-block;
+   background-color: bisque;
+   height: 350px;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blanchedalmond;
+    height: 100;
+}

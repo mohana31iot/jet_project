@@ -1,0 +1,28 @@
+body{background-color: rgb(235, 198, 149);
+    .a{background-color: greenyellow;
+    border: 3px,double,green;
+}
+.c{border: dotted,rgb(255, 81, 0);}
+
+.X{
+    
+    background-image: url("image/Logo Image.jpg");
+    background-repeat: no-repeat;
+background-position: center;
+background-size:cover;
+border: 6px,double,rgb(19, 25, 107);
+width: 100%;
+}
+.Y{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+}
+
+
+
+
+a:link{
+    color: blueviolet;
+}

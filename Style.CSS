@@ -1,0 +1,102 @@
+.x{color: rgb(147, 26, 163);}
+#apply{color: aqua;}
+*{color: blueviolet;}
+#internal{color: black;}
+
+
+.B:hover{
+    color: rgb(17, 34, 28);
+}
+   .C:visited{
+    color: brown;
+   }
+   .D::first-letter{
+    font-size: 3rem;
+    color: brown;
+   }
+   .E:active{
+    color: aquamarine;
+   }
+   .P::before{
+    content: "Note";
+    font-weight: bolder;
+    color: rgb(110, 214, 25);
+   }
+   .G::first-line{
+    font-style: italic;
+    color: rgb(226, 43, 150);
+   }
+   .I::selection{
+    background-color: rgb(255, 0, 0);
+    color: white;
+   }
+   ul li::marker{
+    color: rgb(3, 8, 31);
+    content: "*";
+   }
+   .A{
+    background-color: rgb(149, 14, 50);
+    color: white;
+    border: 5px solid blue;
+    border-radius: 30px;
+    margin-top: 100px;
+    
+   }
+   
+   div{
+    width: 300px;
+    height: 100px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 100px;
+   }
+   *{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+   }
+.Content-box{
+    box-sizing: content-box;
+    padding: 30px;
+    border: 10px solid black;
+    color: rgb(166, 21, 84);
+    background-color: bisque;
+    margin-top: 50px;
+    border-radius: 20px;
+    border-color: blueviolet;
+    text-shadow: 10px 10px 20px;
+
+   }
+   .Border-box{box-sizing: border-box;
+    padding: 30px;
+    border: 10px solid black;
+    color: rgb(166, 21, 84);
+    background-color: bisque;
+    margin-top: 100px;
+    border-radius: 20px;
+    border-color: aqua;
+    text-decoration: double;
+    text-shadow: 5px 5px 10px;
+
+   }
+   .circle{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border-radius: 50px;
+    margin-top: 200px;
+    margin-left: 100px;
+   }
+   .triangle{
+    width: 30;
+    height: 30;
+    border-right:50px soild brown ;
+    border-bottom: 100px soild red;
+    box-shadow: 5px 5px 10px black;
+    text-shadow: 1px;
+    margin-top: 50px;
+    margin-left: 100px;
+   }
+
+  
